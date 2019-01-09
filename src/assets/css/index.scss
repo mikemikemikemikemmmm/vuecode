@@ -1,0 +1,106 @@
+@import "./global_color.scss";
+  /*introduce-group start*/
+.introduce-group {
+    height: 247px;
+    @media (max-width: 768px) {
+      height: auto;
+    }
+}
+.introduce-card-group {
+  top: -80px;
+  position: relative;
+  @media (max-width: 768px) {
+      position: static;
+      top:0px;
+  }
+}
+.introduce-cardbox{
+    height: 256px;
+    overflow: hidden;
+    &:hover{
+        .introduce-card-text{
+            color: $primary;
+        }
+        .introduce-card-text-bg{
+            background-color: $third;
+        }
+        .introduce-card-bg{
+            filter: blur(0);
+        }
+    }
+}
+.introduce-card-bg{
+    filter: blur(5px);
+    transition: all .5s;
+}
+.introduce-card-text-bg{
+    opacity: 0.8;
+    background-color: $primary;
+    transition: all .5s;
+}
+.introduce-card-allitem{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.introduce-card-text{
+    writing-mode: vertical-lr;
+    font-weight: bolder;
+    color: #ffffff;
+    transition: all .5s;
+    line-height: 30px;
+}
+/*introduce-group end*/
+
+/*section start*/
+.section-bg-change{
+  background-color: $secondary;
+  @media (max-width:768px){
+    background-color: #fff;
+  }
+}
+.section3 {
+  height: 503px;
+  @media (max-width: 768px) {
+    height: auto;
+  }
+}
+.section1, .section2 {
+  height: 420px;
+  margin-bottom: 100px;
+  @media (max-width: 768px) {
+    height: auto;
+    margin-bottom: 0;
+  }
+}
+.section-article {
+  writing-mode: vertical-rl;
+  color: $fourth;
+  height: 280px;
+  font-size: 16px;
+  line-height: 32px;
+  @media (max-width: 768px) {
+        height: auto;
+        writing-mode: horizontal-tb;
+        background-color: $secondary;
+      }
+    
+}
+.section-img-box {
+  height: 460px;
+  @media (max-width: 768px) {
+    height: 250px;
+  }
+}
+.section-title {
+  min-height: 60px;
+  margin: 0 20%;
+}
+.section-md-title{
+  height: 460px;
+}
+/*section end*/
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */

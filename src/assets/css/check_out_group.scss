@@ -1,0 +1,53 @@
+@import "./global_color.scss";
+.check-step{
+  height: 20px;
+  width: 20px;
+  position: relative;
+}
+.check-step-doing{
+  &:after{
+    content: "";
+    display: block;
+    width: 95%;
+    height: 95%;
+    border: 2px solid $primary;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    background-color: $secondary;
+  }
+}
+.check-form-group{
+  input,select{
+    height: 56px;
+    width: 100%;
+    background-color: $secondary;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+.checkout3_checkbox{
+  height: 56px;
+}
+.check-success{
+  height: 460px;
+  @media(max-width:768px){
+    justify-content: center;
+  }
+  .step-group{
+    width: 190px;
+  }
+}
+.success-lg-btn{
+  margin-top: 51.34px;
+  @media(max-width:768px){
+    margin-top: auto;
+    width: 100%;
+  }
+}
+.check_cart_img{
+  height: 80px;
+  width: 120px;
+}

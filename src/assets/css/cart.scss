@@ -1,0 +1,39 @@
+@import "./global_color.scss";
+.cart-img{
+  width: 110px;
+  height: 110px;
+  @media (max-width:768px){
+  width: auto;
+  align-self: stretch;
+  }
+}
+.cart-num-item {
+  width: 48px;
+  height: 48px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart-group{
+  align-items: center;
+  @media(max-width:768px){
+    align-items: stretch;
+  }
+}
+.cart-pay-summary{
+  border-bottom: 1px solid $secondary;
+  padding-bottom: 16px;
+  @media(max-width: 768px){
+    color: $primary;
+    background-color: $secondary;
+    padding: 0 16px;
+  }
+}
+.cart-pay-group{
+  color: $secondary;
+  background-color: $primary;
+  @media(max-width: 768px){
+    color: $primary;
+    background-color: #ffffff;
+  }
+}

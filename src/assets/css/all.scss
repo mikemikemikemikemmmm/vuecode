@@ -1,0 +1,10 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "./_variables";
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "./global_class";
+@import "./global_components.scss";
+@import "./index.scss";
+@import "./product.scss";
+@import "./login.scss";
+@import "./cart.scss";
+@import "./check_out_group.scss";

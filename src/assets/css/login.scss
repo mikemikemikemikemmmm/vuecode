@@ -1,0 +1,19 @@
+@import "./global_color.scss";
+.login-input-group{
+  width: 75%;
+  @media (max-width:768px){
+    width: 100%;
+  }
+}
+.community-img{
+  height: 20px;
+  @media (max-width: 575.98px) {
+    height: 15px;
+  }
+}
+.remember-me{
+  input[type='checkbox']{
+    width: 16px;
+    height: 16px;
+  }
+}
